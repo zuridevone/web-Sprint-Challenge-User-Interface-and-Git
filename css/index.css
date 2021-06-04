@@ -54,14 +54,39 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: teal;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    background-color: gold;
 }
-
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    background-color: cadetblue;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    background-color: coral;
+}
+h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: crimson;
+}
+h5 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: forestgreen;
+}
 p {
     line-height: 1.4;
 }
@@ -99,6 +124,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes .box {
@@ -116,14 +142,17 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    background-color: darkorchid;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    background-color: hotpink;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    background-color: indigo;
 }
 
 footer {
