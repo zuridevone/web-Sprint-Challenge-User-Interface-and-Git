@@ -173,3 +173,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*responsive media styles*/
+/*
+max-width scales down-desktop first
+max-width scales up-mobile first
+*/
+@media(max-width: 800px){
+    /*if the screen size is 800px or smalles apply these styles*/
+
+@media(max-width:500px){
+    /*if the screen size is 500px or smaller apply these styles*/
